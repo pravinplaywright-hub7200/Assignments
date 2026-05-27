@@ -28,17 +28,62 @@ let locationData:cordinate = {
     console.log("Coordinates of a location ", locationData.latitude,locationData.longitude); 
 
 //7.Person's marital status: true or false
+let maritalstatus1 : boolean = true;
+console.log(`Person's marital status: true or false: ${maritalstatus1}`);
+let maritalstatus2 : boolean = false;
+console.log(`Person's marital status: true or false: ${maritalstatus2}`);
 
 //8. Person's occupation: "Software Engineer"
+let occupation : string = '"Software Engineer"';
+console.log(`Person's occupation: ${occupation}`);
+
 //9. Person's favourite colour: "Blue"
+let color : string = '"Blue"';
+console.log(`Person's favourite colour:: ${color}`);
+
 //10.Current year: 2023
+let currentDate = new Date();
+console.log(currentDate);
+let currentYear = currentDate.getFullYear();
+console.log(currentYear);
+
 //11.Number of followers on a social media platform: 1,000,000
+let followers : string = '1,000,000';
+console.log(`Number of followers on a social media platform: ${followers}`);
+
 //12.Rating of a movie: 7.5
+let rating : number = 7.5;
+console.log(`Rating of a movie: ${rating}`);
+
 //13.Person's blood type: 'A'
+let bloodtype : string = 'A';
+console.log(`Person's blood type : ${bloodtype}`);
+
 //14.Title of a book: "To Kill a Mockingbird"
+let booktitle : string = '"To Kill a Mockingbird"';
+console.log(`Title of a book: ${booktitle}`);
+
 //15.Number of employees in a company: 500
+let employeestrength : number = 500;
+console.log(`Number of employees in a company: ${employeestrength}`);
+
 //16.Time of an event: 2:30 PM
+let eventtime : string = '2:30 PM';
+console.log(`Time of an event: ${eventtime}`);
+
+
 //17.Name of a country: "United States"
+let countryname : string = "United States";
+console.log(`Name of a country: ${countryname}`);
+
 //18.Person's eye color: "Brown"
+let eyecolor : string = "Brown";
+console.log(`Person's eye color : ${eyecolor}`);
+
 //19.Person's birthplace: "New York City"
-//20. Distance between two cities: 200.5
+let birthplace : string = "New York City";
+console.log(`Person's birthplace: ${birthplace}`);
+
+//20.Distance between two cities: 200.5
+let distance : number = 200.5;
+console.log(`Distance between two cities: ${distance}`);
